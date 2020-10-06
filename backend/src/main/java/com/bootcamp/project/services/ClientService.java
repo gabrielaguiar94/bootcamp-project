@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.bootcamp.project.dto.ClientDTO;
 import com.bootcamp.project.entities.Client;
-import com.bootcamp.project.exceptions.ResourceNotFoundException;
 import com.bootcamp.project.repositories.ClientRepository;
+import com.bootcamp.project.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class ClientService {
